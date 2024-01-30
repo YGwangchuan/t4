@@ -1,0 +1,31 @@
+{
+  "name": "Microbit集成库",
+  "version": "1.2.0",
+  "description": "用于蓝桥micro:bit开发板扩展包",
+  "license": "MIT",
+  "dependencies": {
+    "core": "*",
+    "background": "github:1010Technologies/pxt-makerbit-background#v1.0.1"
+  },
+  "files": [
+    "README.md",
+    "heji.ts",
+    "_locales/zh/joystickbit-strings.json",
+    "_locales/fr/joystickbit-strings.json",
+    "parts/OLED12864_I2C.svg",
+    "pxtparts.json",
+    "_locales/de/MakerBit-IR-Receiver-strings.json",
+    "_locales/ja/neopixel-strings.json",
+    "_locales/de/neopixel-strings.json",
+    "_locales/de/neopixel-jsdoc-strings.json",
+    "_locales/es-ES/neopixel-strings.json",
+    "_locales/fr/neopixel-strings.json",
+    "_locales/fr/neopixel-jsdoc-strings.json",
+    "_locales/zh/neopixel-strings.json"
+
+  ],
+  "testFiles": [
+    "test.ts"
+  ],
+  "public": true
+}
